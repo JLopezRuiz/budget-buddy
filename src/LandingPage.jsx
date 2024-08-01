@@ -1,9 +1,10 @@
 import React from 'react';
+import Header from './components/header/Header';
 
 const LandingPage = () => {
     return (
         <div>
-            Hi, I'm your Budget Buddy!
+            <Header/>
         </div>
     );
 };

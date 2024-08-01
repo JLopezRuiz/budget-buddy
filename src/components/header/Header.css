@@ -1,0 +1,15 @@
+.headline-container {
+    display: flex;
+    column-gap: 1rem;
+    align-items: center;
+}
+
+#assets {
+    height: 2rem;
+    width: 10rem;
+    font-size: larger;
+}
+
+.subtitle {
+    margin:0
+}
