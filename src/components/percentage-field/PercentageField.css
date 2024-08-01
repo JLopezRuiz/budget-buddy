@@ -1,0 +1,9 @@
+.field-container {
+    border:solid;
+    border-radius: 5px;
+    width: 20rem;
+}
+
+.field-content{
+    margin-left: 1rem;
+}
