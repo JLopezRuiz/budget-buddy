@@ -3,3 +3,9 @@
     flex-direction: column;
     row-gap: 1rem;
 }
+
+.fields {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}

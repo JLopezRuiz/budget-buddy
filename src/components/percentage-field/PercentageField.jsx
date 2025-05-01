@@ -1,5 +1,5 @@
 import './PercentageField.css';
-import React from 'react';
+import PropTypes from 'prop-types';
 
 const PercentageField = ({fieldContent}) => {
     return (
@@ -9,4 +9,11 @@ const PercentageField = ({fieldContent}) => {
     );
 };
 
+PercentageField.propTypes = {
+    fieldContent: PropTypes.string.isRequired,
+    onDelete: PropTypes.func,
+    onEdit: PropTypes.func,
+    onSave: PropTypes.func,
+    onCancel: PropTypes.func,
+};
 export default PercentageField;
